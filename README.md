@@ -5,3 +5,6 @@ url - http://127.0.0.1:3000 show 'Hello World' on the browser screen
 
 # app-02.js
 set routing - for different endpoint
+
+# app-03.js
+pass dynamic argument or route parameter through url
