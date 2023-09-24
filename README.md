@@ -8,3 +8,6 @@ set routing - for different endpoint
 
 # app-03.js
 pass dynamic argument or route parameter through url
+
+# app-04.js
+HTTP GET Request: This method sends data as query parameters in the URL. It's commonly used for sending small amounts of data.
