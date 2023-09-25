@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <a href="/">Back</a>
+    <br><hr>
+    <h1>Name List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EDIT</th>
+                <th>DELETE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (let person of persons) { %>
+                <tr>
+                    <td><%= person.id %></td>
+                    <td><%= person.name %></td>
+                    <td><a href="/edit/<%= person.id %>">edit</a></td>
+                    <td><a href="/delete/<%= person.id %>">delete</a></td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+</body>
+</html>

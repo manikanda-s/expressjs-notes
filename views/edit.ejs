@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - edit</title>
+</head>
+<body>
+    <a href="/list">List</a>
+    <br><hr>
+    <form action="/edit" method="post">
+        <label for="id">ID</label>
+        <input type="text" name="id" value=<%= person.id %>>
+        <br><br>
+        <label for="name">Edit Name</label>
+        <input type="text" name="name" id="name" value=<%= person.name %> >
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
