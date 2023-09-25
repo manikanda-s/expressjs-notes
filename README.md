@@ -13,4 +13,8 @@ pass dynamic argument or route parameter through url
 HTTP GET Request: This method sends data as query parameters in the URL. It's commonly used for sending small amounts of data.
 
 # app-05.py
-render HTML page
+render HTML page with sendFile method
+
+# app-06.py
+render HTML page with render method and ejs template engine
+NOTE: make sure you're html file extension should be ".ejs"
