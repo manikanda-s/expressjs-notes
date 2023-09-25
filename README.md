@@ -18,3 +18,6 @@ render HTML page with sendFile method
 # app-06.py
 render HTML page with render method and ejs template engine
 NOTE: make sure you're html file extension should be ".ejs"
+
+# app-07.py
+pass data from expressJS to html
