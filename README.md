@@ -22,8 +22,8 @@ NOTE: make sure you're html file extension should be ".ejs"
 # app-07.js
 pass data from expressJS to html
 
-# app-08.py
+# app-08.js
 HTTP POST Request: This method is used for sending larger amounts of data or sensitive information.
 
-# app-09.py
+# app-09.js
 CRUD Operation
